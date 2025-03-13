@@ -33,6 +33,9 @@
     <script>
         var audio = document.getElementById("myaudio");
         audio.volume = 0.4;
+        document.addEventListener("click", function () {
+            audio.play();
+        }, { once: true });
     </script>
 
     <header>
